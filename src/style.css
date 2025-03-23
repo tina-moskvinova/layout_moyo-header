@@ -82,6 +82,7 @@ header {
 .nav__item {
   position: relative;
   display: inline-block;
+  top: -3px;
   justify-content: flex-end;
   margin: 0 10px;
 }
@@ -90,7 +91,6 @@ header {
   text-decoration: none;
   color: #000;
   display: inline-block;
-  top: 22px;
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -101,6 +101,7 @@ header {
 
 .item-1 {
   margin-left: 0;
+  top: -2.5px;
 }
 
 .item-8 {
