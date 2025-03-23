@@ -82,7 +82,7 @@ header {
 .nav__item {
   position: relative;
   display: inline-block;
-  top: -3px;
+  top: -2px;
   justify-content: flex-end;
   margin: 0 10px;
 }
