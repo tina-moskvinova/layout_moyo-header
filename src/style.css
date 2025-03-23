@@ -103,6 +103,14 @@ header {
   /* margin: 0 10px; */
 }
 
+.item-1 {
+  margin-left: 0;
+}
+
+.item-8 {
+  margin-right: 0;
+}
+
 .nav__link:hover {
   color: #00acdc;
 }
@@ -119,7 +127,7 @@ header {
   width: 100%;
   left: 0;
   right: 0;
-  top: 35px;
+  top: 36px;
   border-radius: 8px;
   background-color: #00acdc;
 }
