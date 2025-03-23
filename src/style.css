@@ -66,6 +66,7 @@ header {
 
 .nav {
   display: inline-block;
+  flex-basis: auto;
   justify-content: flex-end;
   width: 100%;
   margin: 10px 50px;
@@ -118,7 +119,7 @@ header {
   width: 100%;
   left: 0;
   right: 0;
-  top: 34px;
+  top: 35px;
   border-radius: 8px;
   background-color: #00acdc;
 }
