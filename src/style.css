@@ -87,7 +87,6 @@ header {
 .nav__item {
   position: relative;
   display: inline-block;
-  top: -2px;
   height: var(--item-height);
   justify-content: flex-end;
   margin: 0 10px;
@@ -128,7 +127,7 @@ header {
   width: 100%;
   left: 0;
   right: 0;
-  top: calc(var(--header-height) - var(--item-height) - 8px);
+  top: calc(var(--header-height) - var(--item-height) - 12px);
   border-radius: 8px;
   background-color: #00acdc;
 }
