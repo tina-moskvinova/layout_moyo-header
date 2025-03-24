@@ -1,30 +1,18 @@
 html {
   --header-height: 60px;
   --item-height: 15px;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-ul,
-ol,
-li {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --blue-color: #00acdc;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
   width: 100%;
 }
 
-header {
+.header {
   box-sizing: border-box;
   width: 100%;
   max-width: 1200px;
@@ -112,12 +100,12 @@ header {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 .is-active {
   /* position: relative; */
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 .is-active::after {
@@ -128,5 +116,5 @@ header {
   bottom: 0;
   right: 0;
   border-radius: 8px;
-  background-color: #00acdc;
+  background-color: var(--blue-color);
 }
